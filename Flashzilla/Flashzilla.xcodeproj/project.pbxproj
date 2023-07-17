@@ -59,12 +59,8 @@
 		5F221AAF2A64877400625FDD /* Flashzilla */ = {
 			isa = PBXGroup;
 			children = (
-				5FA6797C2A65D63A003B551C /* Card.swift */,
-				5FA6797E2A65D741003B551C /* CardView.swift */,
-				5F221AB02A64877400625FDD /* FlashzillaApp.swift */,
-				5F221AB22A64877400625FDD /* ContentView.swift */,
-				5FA679822A65E584003B551C /* CardView-ViewModel.swift */,
-				5FA679802A65E08D003B551C /* StackedModifier.swift */,
+				5FA679842A65E79A003B551C /* Model */,
+				5FA679852A65E7AC003B551C /* View */,
 				5F221AB42A64877600625FDD /* Assets.xcassets */,
 				5F221AB62A64877600625FDD /* Preview Content */,
 			);
@@ -77,6 +73,26 @@
 				5F221AB72A64877600625FDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FA679842A65E79A003B551C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FA6797C2A65D63A003B551C /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FA679852A65E7AC003B551C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F221AB02A64877400625FDD /* FlashzillaApp.swift */,
+				5F221AB22A64877400625FDD /* ContentView.swift */,
+				5FA679822A65E584003B551C /* CardView-ViewModel.swift */,
+				5FA6797E2A65D741003B551C /* CardView.swift */,
+				5FA679802A65E08D003B551C /* StackedModifier.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
