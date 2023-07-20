@@ -7,26 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F13E41E2A6966A200CD522B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13E41D2A6966A200CD522B /* DataManager.swift */; };
+		5F14B8E82A68499B0066FE2B /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14B8E72A68499B0066FE2B /* EditCardView.swift */; };
+		5F14B8EA2A6849A80066FE2B /* EditCard-ViewModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14B8E92A6849A80066FE2B /* EditCard-ViewModle.swift */; };
+		5F14B8EC2A687E640066FE2B /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14B8EB2A687E640066FE2B /* Cards.swift */; };
+		5F14B8EE2A687EB60066FE2B /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14B8ED2A687EB60066FE2B /* FileManager-DocumentsDirectory.swift */; };
 		5F221AB12A64877400625FDD /* FlashzillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F221AB02A64877400625FDD /* FlashzillaApp.swift */; };
 		5F221AB32A64877400625FDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F221AB22A64877400625FDD /* ContentView.swift */; };
 		5F221AB52A64877600625FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F221AB42A64877600625FDD /* Assets.xcassets */; };
 		5F221AB82A64877600625FDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F221AB72A64877600625FDD /* Preview Assets.xcassets */; };
+		5F6877D32A66F441002AD81B /* CardView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6877D22A66F441002AD81B /* CardView-ViewModel.swift */; };
+		5F8A41D62A692A64003DEB20 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A41D52A692A64003DEB20 /* cards.json */; };
+		5F8A41D82A693667003DEB20 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A41D72A693667003DEB20 /* Bundle-Decodable.swift */; };
+		5F8A41DA2A693FD4003DEB20 /* CardFillOnDRag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A41D92A693FD4003DEB20 /* CardFillOnDRag.swift */; };
 		5FA6797D2A65D63A003B551C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6797C2A65D63A003B551C /* Card.swift */; };
 		5FA6797F2A65D741003B551C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6797E2A65D741003B551C /* CardView.swift */; };
 		5FA679812A65E08D003B551C /* StackedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA679802A65E08D003B551C /* StackedModifier.swift */; };
-		5FA679832A65E584003B551C /* CardView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA679822A65E584003B551C /* CardView-ViewModel.swift */; };
+		5FA679832A65E584003B551C /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA679822A65E584003B551C /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F13E41D2A6966A200CD522B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5F14B8E72A68499B0066FE2B /* EditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardView.swift; sourceTree = "<group>"; };
+		5F14B8E92A6849A80066FE2B /* EditCard-ViewModle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditCard-ViewModle.swift"; sourceTree = "<group>"; };
+		5F14B8EB2A687E640066FE2B /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cards.swift; path = Flashzilla/Model/Cards.swift; sourceTree = SOURCE_ROOT; };
+		5F14B8ED2A687EB60066FE2B /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		5F221AAD2A64877400625FDD /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F221AB02A64877400625FDD /* FlashzillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaApp.swift; sourceTree = "<group>"; };
 		5F221AB22A64877400625FDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F221AB42A64877600625FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F221AB72A64877600625FDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F6877D22A66F441002AD81B /* CardView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardView-ViewModel.swift"; sourceTree = "<group>"; };
+		5F8A41D52A692A64003DEB20 /* cards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
+		5F8A41D72A693667003DEB20 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		5F8A41D92A693FD4003DEB20 /* CardFillOnDRag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFillOnDRag.swift; sourceTree = "<group>"; };
 		5FA6797C2A65D63A003B551C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		5FA6797E2A65D741003B551C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5FA679802A65E08D003B551C /* StackedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedModifier.swift; sourceTree = "<group>"; };
-		5FA679822A65E584003B551C /* CardView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardView-ViewModel.swift"; sourceTree = "<group>"; };
+		5FA679822A65E584003B551C /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,11 @@
 		5FA679842A65E79A003B551C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5F8A41D72A693667003DEB20 /* Bundle-Decodable.swift */,
+				5F8A41D52A692A64003DEB20 /* cards.json */,
+				5F14B8EB2A687E640066FE2B /* Cards.swift */,
+				5F14B8ED2A687EB60066FE2B /* FileManager-DocumentsDirectory.swift */,
+				5F13E41D2A6966A200CD522B /* DataManager.swift */,
 				5FA6797C2A65D63A003B551C /* Card.swift */,
 			);
 			path = Model;
@@ -87,10 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				5F221AB02A64877400625FDD /* FlashzillaApp.swift */,
+				5FA679822A65E584003B551C /* ContentView-ViewModel.swift */,
+				5F14B8E92A6849A80066FE2B /* EditCard-ViewModle.swift */,
+				5F6877D22A66F441002AD81B /* CardView-ViewModel.swift */,
 				5F221AB22A64877400625FDD /* ContentView.swift */,
-				5FA679822A65E584003B551C /* CardView-ViewModel.swift */,
-				5FA6797E2A65D741003B551C /* CardView.swift */,
+				5F14B8E72A68499B0066FE2B /* EditCardView.swift */,
 				5FA679802A65E08D003B551C /* StackedModifier.swift */,
+				5FA6797E2A65D741003B551C /* CardView.swift */,
+				5F8A41D92A693FD4003DEB20 /* CardFillOnDRag.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F221AB82A64877600625FDD /* Preview Assets.xcassets in Resources */,
+				5F8A41D62A692A64003DEB20 /* cards.json in Resources */,
 				5F221AB52A64877600625FDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,12 +193,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F14B8E82A68499B0066FE2B /* EditCardView.swift in Sources */,
+				5F14B8EE2A687EB60066FE2B /* FileManager-DocumentsDirectory.swift in Sources */,
 				5F221AB32A64877400625FDD /* ContentView.swift in Sources */,
+				5F13E41E2A6966A200CD522B /* DataManager.swift in Sources */,
 				5FA6797D2A65D63A003B551C /* Card.swift in Sources */,
 				5FA6797F2A65D741003B551C /* CardView.swift in Sources */,
 				5F221AB12A64877400625FDD /* FlashzillaApp.swift in Sources */,
+				5F14B8EC2A687E640066FE2B /* Cards.swift in Sources */,
+				5F8A41DA2A693FD4003DEB20 /* CardFillOnDRag.swift in Sources */,
 				5FA679812A65E08D003B551C /* StackedModifier.swift in Sources */,
-				5FA679832A65E584003B551C /* CardView-ViewModel.swift in Sources */,
+				5F6877D32A66F441002AD81B /* CardView-ViewModel.swift in Sources */,
+				5FA679832A65E584003B551C /* ContentView-ViewModel.swift in Sources */,
+				5F14B8EA2A6849A80066FE2B /* EditCard-ViewModle.swift in Sources */,
+				5F8A41D82A693667003DEB20 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

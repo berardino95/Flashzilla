@@ -7,7 +7,13 @@
 
 import Foundation
 
-struct Card {
+struct Card: Codable, Identifiable, Hashable {
+    
+    enum CodingKeys :String, CodingKey {
+        case prompt, answer
+    }
+    
+    var id = UUID()
     let prompt: String
     let answer: String
     

@@ -2,19 +2,21 @@
 //  CardView-ViewModel.swift
 //  Flashzilla
 //
-//  Created by Berardino Chiarello on 17/07/23.
+//  Created by Berardino Chiarello on 18/07/23.
 //
 
 import Foundation
+import UIKit
 
-extension ContentView{
+extension CardView {
+    
     @MainActor class ViewModel : ObservableObject {
         
-        @Published var cards = Array<Card>(repeating: Card.example, count: 10)
-        
-        func removeCard(at index: Int) {
-            cards.remove(at: index)
-        }
+        @Published var isShowingAnswer = false
+        @Published var offset = CGSize.zero
+        @Published var feedback = UINotificationFeedbackGenerator()
         
     }
+    
+    
 }

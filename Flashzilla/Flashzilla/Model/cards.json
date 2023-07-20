@@ -1,0 +1,15 @@
+[
+    
+    {
+        "prompt" : "If you want you can add custom questions",
+        "answer" : "Tap on the + button, after delete the default questions"
+    },
+    {
+        "prompt" : "How many times did Ross Geller marry and divorce on Friends?",
+        "answer" : "Three times"
+    },
+    {
+        "prompt" : "Which green is usually found in a Caesar salad?",
+        "answer" : "Romaine lettuce"
+    }
+]
